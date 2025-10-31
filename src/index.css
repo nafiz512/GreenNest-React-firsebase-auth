@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@plugin "daisyui";
+
+@plugin "daisyui" {
+    themes: light --default;
+}
+
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+
+    --color-primary: #17cf54;
+    --color-secondary: #63886f;
+    --color-accent: #f0f4f2;
+    --color-neutral: #111813;
+    --color-base-100: #ffffff;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

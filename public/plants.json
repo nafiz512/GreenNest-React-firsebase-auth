@@ -1,0 +1,122 @@
+[
+    {
+        "plantId": 1,
+        "plantName": "Snake Plant",
+        "category": "Air Purifier",
+        "price": 18,
+        "rating": 3.5,
+        "availableStock": 10,
+        "careLevel": "Easy",
+        "description": "The Snake Plant, also known as Mother-in-Law’s Tongue, is one of the most resilient indoor plants available. Its tall, upright leaves with sharp green and yellow edges make it both visually striking and incredibly hardy. This plant thrives even in low light and with minimal watering, making it perfect for busy homeowners or office spaces. It’s also known for improving air quality by filtering toxins such as formaldehyde and benzene, creating a fresher, healthier environment indoors.",
+        "image": "https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "providerName": "UrbanGreen Studio"
+    },
+    {
+        "plantId": 2,
+        "plantName": "Peace Lily",
+        "category": "Flowering Houseplant",
+        "price": 24,
+        "rating": 4.6,
+        "availableStock": 8,
+        "careLevel": "Moderate",
+        "description": "The Peace Lily is a timeless indoor favorite, admired for its glossy green leaves and graceful white blooms that resemble a calla lily. Not only does it add elegance to any corner, but it also acts as a natural air purifier by removing harmful toxins from the air. Peace Lilies thrive in moderate light and slightly humid conditions, making them ideal for living rooms or bedrooms. With minimal maintenance, this plant will reward you with lush foliage and seasonal blooms throughout the year.",
+        "image": "https://images.pexels.com/photos/35196/water-plant-green-fine-layers.jpg?auto=compress&cs=tinysrgb&w=800",
+        "providerName": "GreenLeaf Collective"
+    },
+    {
+        "plantId": 3,
+        "plantName": "ZZ Plant",
+        "category": "Low Light Tolerant",
+        "price": 22,
+        "rating": 4.7,
+        "availableStock": 12,
+        "careLevel": "Very Easy",
+        "description": "The ZZ Plant, or Zamioculcas zamiifolia, is a near-indestructible beauty known for its deep green, waxy leaves and minimal care needs. It tolerates low light, irregular watering, and dry air, making it an ideal choice for beginners and frequent travelers. Its bold, glossy foliage brings life and vibrancy to any modern or minimalist interior. This plant is a true survivor — it grows slowly but steadily, even in neglected conditions, while helping purify indoor air naturally.",
+        "image": "https://images.pexels.com/photos/1470171/pexels-photo-1470171.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "providerName": "Indoor Plant Co."
+    },
+    {
+        "plantId": 4,
+        "plantName": "Monstera Deliciosa",
+        "category": "Statement Foliage",
+        "price": 35,
+        "rating": 4.9,
+        "availableStock": 5,
+        "careLevel": "Moderate",
+        "description": "Monstera Deliciosa, often called the Swiss Cheese Plant, is a tropical showstopper prized for its iconic split and perforated leaves. Its dramatic foliage creates an instant jungle vibe in any space. Native to Central America, this plant loves bright, indirect sunlight and moderate humidity. With regular watering and occasional pruning, Monstera can grow into a stunning centerpiece, perfect for large living rooms, offices, or patios. It's both trendy and timeless — a must-have for plant lovers.",
+        "image": "https://images.pexels.com/photos/1244465/pexels-photo-1244465.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "providerName": "Tropica Houseplants"
+    },
+    {
+        "plantId": 5,
+        "plantName": "Spider Plant",
+        "category": "Trailing Houseplant",
+        "price": 16,
+        "rating": 4.5,
+        "availableStock": 15,
+        "careLevel": "Easy",
+        "description": "The Spider Plant is a cheerful and forgiving indoor plant, famous for its cascading green-and-white striped leaves. It’s one of the best natural air purifiers and can adapt to almost any environment. As it matures, it produces long stems with baby plantlets (or 'spiders') that can easily be propagated into new plants. Whether placed in a hanging basket or on a high shelf, the Spider Plant adds a touch of charm and freshness to any home or office setup.",
+        "image": "https://images.pexels.com/photos/1328764/pexels-photo-1328764.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "providerName": "Leafy Living"
+    },
+    {
+        "plantId": 6,
+        "plantName": "Rubber Plant",
+        "category": "Large Leaf Indoor",
+        "price": 28,
+        "rating": 4.4,
+        "availableStock": 7,
+        "careLevel": "Moderate",
+        "description": "With its broad, glossy leaves and upright structure, the Rubber Plant (Ficus elastica) makes a bold statement in any indoor space. It’s known for its ability to grow tall and lush, making it ideal for filling empty corners or adding height to plant displays. This plant prefers bright, indirect sunlight and occasional watering when the top soil feels dry. Besides its beauty, it contributes to cleaner air and can grow into a stunning indoor tree over time.",
+        "image": "https://images.pexels.com/photos/1634502/pexels-photo-1634502.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "providerName": "UrbanGreen Studio"
+    },
+    {
+        "plantId": 7,
+        "plantName": "Philodendron Brasil",
+        "category": "Trailing Foliage",
+        "price": 20,
+        "rating": 4.9,
+        "availableStock": 10,
+        "careLevel": "Easy",
+        "description": "The Philodendron Brasil features heart-shaped leaves with vibrant green and yellow variegation that brighten any space. This trailing plant thrives in a variety of lighting conditions and grows gracefully along shelves or hanging baskets. It’s an excellent air purifier and requires only moderate watering, allowing its soil to dry slightly between waterings. Its low-maintenance nature and eye-catching color patterns make it a favorite among both new and experienced plant owners.",
+        "image": "https://images.pexels.com/photos/1046348/pexels-photo-1046348.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "providerName": "GreenLeaf Collective"
+    },
+    {
+        "plantId": 8,
+        "plantName": "Calathea Orbifolia",
+        "category": "Patterned Foliage",
+        "price": 30,
+        "rating": 4.3,
+        "availableStock": 4,
+        "careLevel": "Intermediate",
+        "description": "Calathea Orbifolia is a striking tropical houseplant celebrated for its large, round leaves patterned with silvery-white stripes. Its unique leaf design gives an elegant, high-end look to indoor decor. This plant thrives in warm, humid conditions with indirect light, making it perfect for bathrooms or well-lit living rooms. Though slightly sensitive to low humidity and overwatering, the Calathea rewards attentive care with stunning, vibrant growth and a touch of rainforest beauty indoors.",
+        "image": "https://images.pexels.com/photos/40720/basil-herbs-green-mediterranean-40720.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "providerName": "Tropica Houseplants"
+    },
+    {
+        "plantId": 9,
+        "plantName": "Pothos Golden",
+        "category": "Air Purifier / Trailing",
+        "price": 19,
+        "rating": 4.6,
+        "availableStock": 14,
+        "careLevel": "Very Easy",
+        "description": "The Golden Pothos, also called Devil’s Ivy, is a fast-growing, vining plant with lush heart-shaped leaves streaked in golden-yellow hues. It’s almost impossible to kill and grows beautifully in hanging baskets, on trellises, or even trained along walls. This plant tolerates low light and irregular watering while continuously purifying the air. A true classic, Pothos adds effortless greenery and warmth to any room without demanding much in return.",
+        "image": "https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "providerName": "Leafy Living"
+    },
+    {
+        "plantId": 10,
+        "plantName": "Fiddle Leaf Fig",
+        "category": "Architectural Houseplant",
+        "price": 40,
+        "rating": 4.2,
+        "availableStock": 3,
+        "careLevel": "Challenging",
+        "description": "The Fiddle Leaf Fig (Ficus lyrata) is a design favorite known for its large, violin-shaped leaves and tall, sculptural growth. It thrives in bright, indirect sunlight and stable environments, rewarding careful growers with spectacular vertical foliage. Though sensitive to overwatering and drafts, this plant adds dramatic visual impact to any modern interior. Perfect for spacious living areas or offices, it’s the ultimate statement plant for those who love sophisticated greenery.",
+        "image": "https://images.pexels.com/photos/1382195/pexels-photo-1382195.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "providerName": "Indoor Plant Co."
+    }
+]
