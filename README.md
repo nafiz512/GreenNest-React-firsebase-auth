@@ -7,8 +7,7 @@ It provides an interactive, animated, and mobile-friendly experience with smooth
 
 ## Live Demo
 
-**Live Website:** [https://greennest-2d277.web.app/plants](#)  
- **GitHub Repository:** [https://github.com/programming-hero-web-course2/b12-a9-firesheild-nafiz512](#)
+**Live Website:** [https://greennest-2d277.web.app/plants](#)
 
 ---
 
