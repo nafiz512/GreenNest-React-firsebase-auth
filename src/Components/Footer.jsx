@@ -30,19 +30,36 @@ export default function Footer() {
                     </h3>
                     <ul className="space-y-2 text-sm">
                         <li>
-                            <a className="hover:text-[#17cf54] transition-colors">
+                            <NavLink
+                                to={"/"}
+                                className="hover:text-[#17cf54] transition-colors"
+                            >
+                                Home page
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to={"/plants"}
+                                className="hover:text-[#17cf54] transition-colors"
+                            >
+                                Explore
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to={"/about"}
+                                className="hover:text-[#17cf54] transition-colors"
+                            >
                                 About
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="hover:text-[#17cf54] transition-colors">
+                            <NavLink
+                                to={"/contact"}
+                                className="hover:text-[#17cf54] transition-colors"
+                            >
                                 Contact
-                            </a>
-                        </li>
-                        <li>
-                            <a className="hover:text-[#17cf54] transition-colors">
-                                Privacy Policy
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>

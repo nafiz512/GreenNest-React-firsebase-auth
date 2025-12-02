@@ -13,7 +13,7 @@ const Contact = () => {
                             <h1 className="text-gray-900  tracking-tight text-4xl md:text-5xl font-extrabold leading-tight">
                                 Get in Touch
                             </h1>
-                            <p className="text-green-600 dark:text-green-400 text-lg mt-2">
+                            <p className="text-green-600  text-lg mt-2">
                                 We're here to help your garden grow.
                             </p>
                         </div>
@@ -22,7 +22,7 @@ const Contact = () => {
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16">
                             {/* Left Column: Contact Form */}
                             <div className="lg:order-1 order-2">
-                                <div className="bg-white dark:bg-neutral-800 p-8 rounded-xl shadow-2xl border border-green-500/10">
+                                <div className="bg-white  p-8 rounded-xl shadow-2xl border border-green-500/10">
                                     <h2 className="text-2xl font-semibold  mb-6">
                                         Send Us a Message
                                     </h2>
@@ -30,14 +30,14 @@ const Contact = () => {
                                         {/* Name Input */}
                                         <div className="form-control">
                                             <label className="label">
-                                                <span className="label-text text-gray-700 dark:text-gray-300">
+                                                <span className="label-text text-gray-700 ">
                                                     Full Name
                                                 </span>
                                             </label>
                                             <input
                                                 type="text"
                                                 placeholder="Full name"
-                                                className="input input-bordered w-full input-md bg-gray-50 dark:bg-neutral-700 border-green-300/50 dark:border-green-600/30"
+                                                className="input input-bordered w-full input-md bg-gray-50 "
                                                 required
                                             />
                                         </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                                         {/* Email Input */}
                                         <div className="form-control">
                                             <label className="label">
-                                                <span className="label-text text-gray-700 dark:text-gray-300">
+                                                <span className="label-text text-gray-700 ">
                                                     Email
                                                 </span>
                                             </label>
@@ -53,7 +53,7 @@ const Contact = () => {
                                             <input
                                                 type="email"
                                                 placeholder="you@example.com"
-                                                className="input input-bordered w-full input-md bg-gray-50 dark:bg-neutral-700 border-green-300/50 dark:border-green-600/30"
+                                                className="input input-bordered w-full input-md  border-green-300/50 "
                                                 required
                                             />
                                         </div>
@@ -61,11 +61,11 @@ const Contact = () => {
                                         {/* Subject Dropdown */}
                                         <div className="form-control">
                                             <label className="label">
-                                                <span className="label-text text-gray-700 dark:text-gray-300">
+                                                <span className="label-text text-gray-700 ">
                                                     Subject
                                                 </span>
                                             </label>
-                                            <select className="select select-bordered w-full select-md bg-gray-50 dark:bg-neutral-700 border-green-300/50 dark:border-green-600/30">
+                                            <select className="select select-bordered w-full select-md bg-gray-50  border-green-300/50 ">
                                                 <option disabled selected>
                                                     Select a subject...
                                                 </option>
@@ -86,13 +86,13 @@ const Contact = () => {
                                         {/* Message Textarea */}
                                         <div className="form-control">
                                             <label className="label">
-                                                <span className="label-text text-gray-700 dark:text-gray-300">
+                                                <span className="label-text ">
                                                     Message
                                                 </span>
                                             </label>
                                             <br />
                                             <textarea
-                                                className="textarea textarea-bordered h-24 bg-gray-50 dark:bg-neutral-700 border-green-300/50 dark:border-green-600/30"
+                                                className="textarea textarea-bordered h-24 bg-gray-50"
                                                 placeholder="Your detailed message..."
                                             ></textarea>
                                         </div>

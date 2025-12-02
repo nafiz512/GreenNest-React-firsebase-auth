@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div className=" w-10/12 mx-auto">
             {/* This div is typically the main container/layout wrapper */}
-            <div className="  py-10 md:py-20">
+            <div className="  ">
                 <div className="layout-content-container flex flex-col  mx-auto flex-1">
                     {/* Header/Hero Section */}
                     <div className="w-full">
@@ -30,13 +30,13 @@ const About = () => {
                     </div>
 
                     {/* Mission Section */}
-                    <section className="mt-12 md:mt-20">
+                    <section className="my-10">
                         <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 md:gap-12 items-center">
                             {/* Mission Image (Left Column) */}
                             <div className="w-full lg:col-span-4 bg-white dark:bg-neutral-900">
-                                <div className="w-full gap-1 overflow-hidden bg-white dark:bg-neutral-900 aspect-[3/4] rounded-xl flex shadow-xl">
+                                <div className="w-full gap-1 overflow-hidden bg-white dark:bg-neutral-900 aspect-[4.5/4] rounded-xl flex shadow-xl">
                                     <div
-                                        className="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-xl flex-1"
+                                        className="w-full  bg-center bg-no-repeat bg-cover aspect-auto rounded-xl flex-1"
                                         // FIX 2: Using the correct placeholder URL variable
                                         style={{
                                             backgroundImage: `url('${MISSION_IMAGE_URL}')`,
@@ -48,11 +48,11 @@ const About = () => {
 
                             {/* Headline & Body Text (Right Column) */}
                             <div className="lg:col-span-6">
-                                <h1 className="text-gray-900 dark:text-white tracking-tight text-3xl md:text-4xl font-bold leading-tight text-left pb-3">
+                                <h1 className="text-gray-900  tracking-tight text-3xl md:text-4xl font-bold leading-tight text-left pb-3">
                                     Connecting people with the restorative power
                                     of nature, one plant at a time.
                                 </h1>
-                                <p className="text-gray-700 dark:text-gray-300 text-lg font-normal leading-relaxed pt-1">
+                                <p className="text-gray-700  text-lg font-normal leading-relaxed pt-1">
                                     Founded from a passion for greenery and a
                                     belief in its calming influence, GreenNest
                                     is more than just a shop. It's a resource
@@ -68,14 +68,14 @@ const About = () => {
                     </section>
 
                     {/* Core Values Section */}
-                    <section className="mt-16 md:mt-24">
-                        <h2 className="text-center text-2xl font-semibold mb-8 text-gray-800 dark:text-gray-100">
+                    <section className="">
+                        <h2 className="text-center text-2xl font-semibold mb-8 text-gray-800">
                             Our Core Values
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             {/* Card 1: Sustainability */}
                             <div className="bg-green-50/50 dark:bg-green-900/10 p-6 rounded-xl flex flex-col items-start shadow-lg transition-transform hover:shadow-xl hover:scale-[1.02] duration-300">
-                                <div className="bg-green-100/70 dark:bg-green-900/30 rounded-lg p-3 mb-4">
+                                <div className=" rounded-lg p-3 mb-4">
                                     {/* Icon: Leaf/Spa */}
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -92,10 +92,10 @@ const About = () => {
                                         />
                                     </svg>
                                 </div>
-                                <h3 className="text-gray-900 dark:text-white text-xl font-bold">
+                                <h3 className="text-gray-900  text-xl font-bold">
                                     Sustainability First
                                 </h3>
-                                <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed mt-2">
+                                <p className="text-gray-700  text-base leading-relaxed mt-2">
                                     We're committed to eco-friendly sourcing,
                                     recyclable packaging, and practices that
                                     protect our planet for future generations.
@@ -104,7 +104,7 @@ const About = () => {
 
                             {/* Card 2: Expert Care */}
                             <div className="bg-green-50/50 dark:bg-green-900/10 p-6 rounded-xl flex flex-col items-start shadow-lg transition-transform hover:shadow-xl hover:scale-[1.02] duration-300">
-                                <div className="bg-green-100/70 dark:bg-green-900/30 rounded-lg p-3 mb-4">
+                                <div className=" rounded-lg p-3 mb-4">
                                     {/* Icon: Recycling/Care */}
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -121,10 +121,10 @@ const About = () => {
                                         />
                                     </svg>
                                 </div>
-                                <h3 className="text-gray-900 dark:text-white text-xl font-bold">
+                                <h3 className="text-gray-900  text-xl font-bold">
                                     Expert Care
                                 </h3>
-                                <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed mt-2">
+                                <p className="text-gray-700  text-base leading-relaxed mt-2">
                                     Our team provides unparalleled knowledge and
                                     support, ensuring you have everything you
                                     need for your plants to flourish.
@@ -133,7 +133,7 @@ const About = () => {
 
                             {/* Card 3: Community */}
                             <div className="bg-green-50/50 dark:bg-green-900/10 p-6 rounded-xl flex flex-col items-start shadow-lg transition-transform hover:shadow-xl hover:scale-[1.02] duration-300">
-                                <div className="bg-green-100/70 dark:bg-green-900/30 rounded-lg p-3 mb-4">
+                                <div className=" rounded-lg p-3 mb-4">
                                     {/* Icon: Groups/Community */}
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -150,10 +150,10 @@ const About = () => {
                                         />
                                     </svg>
                                 </div>
-                                <h3 className="text-gray-900 dark:text-white text-xl font-bold">
+                                <h3 className="text-gray-900  text-xl font-bold">
                                     Thriving Community
                                 </h3>
-                                <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed mt-2">
+                                <p className="text-gray-700  text-base leading-relaxed mt-2">
                                     Join a growing network of plant lovers. We
                                     foster connections through workshops,
                                     events, and a shared passion for greenery.
@@ -163,9 +163,9 @@ const About = () => {
                     </section>
 
                     {/* Call to Action Section */}
-                    <section className="mt-20 md:mt-32">
+                    <section className="my-10">
                         <div className="bg-green-700/10 dark:bg-green-900/20 p-8 rounded-xl flex flex-col md:flex-row justify-between items-center shadow-md">
-                            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4 md:mb-0">
+                            <h2 className="text-2xl font-semibold text-gray-800  mb-4 md:mb-0">
                                 Ready to Nurture Your Nest?
                             </h2>
                             <NavLink to={"/plants"}>
