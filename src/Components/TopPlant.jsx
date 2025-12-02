@@ -13,8 +13,8 @@ const TopPlant = ({ data }) => {
         AOS.refresh();
     }, []);
     return (
-        <div className="py-8 overflow-hidden">
-            <h2 className=" pb-6 font-bold text-2xl">
+        <div className=" overflow-hidden">
+            <h2 className=" pb-4 font-bold text-2xl">
                 Top Rated Indoor Plants
             </h2>
             <div

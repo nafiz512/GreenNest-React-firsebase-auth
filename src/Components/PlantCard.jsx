@@ -6,20 +6,17 @@ const PlantCard = ({ plant }) => {
     return (
         <div className="rounded-t-lg hover:scale-105 flex flex-col  bg-white shadow-md hover:shadow-lg transition-transform duration-300 ">
             {/* Image */}
-            <div className=" h-72 flex items-center justify-center">
+            <div className=" h-40 flex items-center justify-center">
                 <img
-                    loading="lazy"
                     src={plant.image}
                     alt={plant.plantName}
-                    className="h-full rounded-lg w-full object-cover "
+                    className="h-full rounded-t-sm w-full object-cover "
                 />
             </div>
 
             {/* Content */}
-            <div className="flex flex-col flex-1 gap-2 p-4 ">
-                <h3 className="text-lg  text-gray-600 mb-1">
-                    {plant.plantName}
-                </h3>
+            <div className="flex flex-col flex-1  p-2 ">
+                <h3 className="text-lg  text-gray-600 ">{plant.plantName}</h3>
                 <h3>${plant.price.toFixed(2)}</h3>
                 {/* Rating */}
                 <div className="flex gap-1 items-center mb-2">
@@ -49,7 +46,7 @@ const PlantCard = ({ plant }) => {
 
                 {/* Button */}
                 <NavLink to={`/plant-details/${plant.plantId}`}>
-                    <button className="mt-auto w-full rounded-xl btn btn-success text-white font-semibold text-sm py-2 px-4 transition-colors">
+                    <button className="mt-auto w-full bg-[#4d9e75] rounded-xl btn text-white font-semibold text-sm px-4 transition-colors">
                         View Details
                     </button>
                 </NavLink>

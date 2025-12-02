@@ -23,8 +23,8 @@ const GreenExperts = () => {
     ];
 
     return (
-        <div className="py-5">
-            <h2 className=" pb-6 font-bold text-2xl">Meet Our Green Experts</h2>
+        <div className="">
+            <h2 className=" pb-4 font-bold text-2xl">Meet Our Green Experts</h2>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
                 {experts.map((expert, index) => (

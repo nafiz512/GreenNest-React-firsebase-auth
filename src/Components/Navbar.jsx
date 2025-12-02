@@ -30,13 +30,21 @@ const Navbar = () => {
                 <NavLink to={"/plants"}>Plants</NavLink>
             </li>
             <li className="text-[#1a251e] font-medium ">
-                <NavLink to={"/profile"}>My Profile</NavLink>
+                <NavLink to={"/about"}>About</NavLink>
             </li>
+            <li className="text-[#1a251e] font-medium ">
+                <NavLink to={"/contact"}>Contact</NavLink>
+            </li>
+            {user && (
+                <li className="text-[#1a251e] font-medium ">
+                    <NavLink to={"/profile"}>My Profile</NavLink>
+                </li>
+            )}
         </>
     );
     return (
         <div>
-            <div className="mx-auto md:px-[100px] navbar bg-accent shadow rounded-md">
+            <div className=" p-0 sm:px-[8.5%] navbar bg-accent shadow ">
                 <div className="navbar-start ">
                     <div className="dropdown">
                         <div
@@ -82,13 +90,8 @@ const Navbar = () => {
                     {!user ? (
                         <div className="space-x-2 flex">
                             <NavLink to={"/login"}>
-                                <button className="btn bg-white border-gray-600 h-9 rounded-3xl">
+                                <button className="btn border-gray-600 text-white  rounded-3xl bg-[#4d9e75]">
                                     Log in
-                                </button>
-                            </NavLink>
-                            <NavLink to={"/signup"}>
-                                <button className="btn h-9 border border-black rounded-3xl text-gray-50 bg-[#4d9e75]">
-                                    Sign up
                                 </button>
                             </NavLink>
                         </div>
@@ -101,7 +104,7 @@ const Navbar = () => {
                                     className="flex justify-center gap-3 items-center m-1"
                                 >
                                     <img
-                                        className="size-12 p-0.5 border-2 border-secondary rounded-full cursor-pointer"
+                                        className="size-12  border-2 border-secondary rounded-full cursor-pointer"
                                         src={user?.photoURL || avater}
                                         onError={(e) => {
                                             e.target.onerror = null;

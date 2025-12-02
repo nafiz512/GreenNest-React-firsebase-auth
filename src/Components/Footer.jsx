@@ -6,7 +6,7 @@ import { IoCall } from "react-icons/io5";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#111813] text-[#dce5df] py-10 px-6 md:px-20 ">
+        <footer className="bg-[#111813] text-[#dce5df] py-10 p-4 sm:px-[8%] ">
             <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10 border-b border-[#2b3a2f] pb-8">
                 {/* Brand Section */}
                 <div>

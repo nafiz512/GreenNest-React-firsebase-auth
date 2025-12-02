@@ -23,7 +23,7 @@ const PlantCareTips = () => {
     ];
 
     return (
-        <div className="py-8">
+        <div className="">
             <h2 className=" pb-6 font-bold text-2xl">Plant Care Tips</h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 ">
                 {tips.map((tip, index) => (

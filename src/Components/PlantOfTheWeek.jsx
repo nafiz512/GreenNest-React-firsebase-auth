@@ -37,8 +37,8 @@ export default function PlantOfTheWeek({ plants }) {
     };
 
     return (
-        <section className="w-full mx-auto mb-10 ">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#111813] mb-6 ">
+        <section className="w-full mx-auto ">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#111813] mb-4 ">
                 Plant of the Week
             </h2>
 
