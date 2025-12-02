@@ -71,11 +71,8 @@ const Login = () => {
                 </h2>
 
                 {/* Login Form */}
-                <div className="card relative bg-[#dff8d096] shadow-green-900 shadow-2xl w-[350px] sm:min-w-sm">
+                <div className="card  bg-[#dff8d096] shadow-green-900 shadow-2xl w-[350px] sm:min-w-sm">
                     <div className="w-full card-body text-center">
-                        <p className="absolute -top-3 -left-5 font-semibold text-2xl">
-                            Log-in
-                        </p>
                         <form
                             onSubmit={handleLogin}
                             className="flex flex-col gap-2"

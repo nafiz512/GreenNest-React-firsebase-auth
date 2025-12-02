@@ -45,9 +45,9 @@ export default function App() {
                 className="mySwiper h-full"
             >
                 {slides.map((slide) => (
-                    <SwiperSlide key={slide.id}>
+                    <SwiperSlide key={slide.id} className="">
                         <div
-                            className="relative w-full h-[30vh] md:h-[60vh] flex items-center justify-center bg-cover bg-center"
+                            className="relative w-full  h-[30vh] md:h-[60vh] flex items-center justify-center bg-cover bg-center"
                             style={{ backgroundImage: `url(${slide.image})` }}
                         >
                             <div className="absolute inset-0 bg-black/40"></div>

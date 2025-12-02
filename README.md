@@ -7,7 +7,7 @@ It provides an interactive, animated, and mobile-friendly experience with smooth
 
 ## Live Demo
 
-**Live Website:** <a href="https://greennest-2d277.web.app/plants" target="blank" rel="noopener noreferrer">https://greennest-2d277.web.app/plants</a>
+**Live Website:** <a href="https://greennest-2d277.web.app" target="blank" rel="noopener noreferrer">https://greennest-2d277.web.app/plants</a>
 
 ---
 

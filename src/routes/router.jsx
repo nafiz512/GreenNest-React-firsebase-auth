@@ -11,6 +11,8 @@ import PrivateRouter from "../AuthContext/PrivateRouter";
 import ResetPassword from "../Pages/ResetPassword";
 import Loading from "../Components/Loading";
 import ErrorPage from "../Pages/ErrorPage";
+import About from "../Pages/About";
+import Contact from "../Pages/Contact";
 
 const router = createBrowserRouter([
     {
@@ -36,11 +38,7 @@ const router = createBrowserRouter([
                 path: "/plant-details/:id",
                 hydrateFallbackElement: <Loading></Loading>,
                 loader: () => fetch("/plants.json"),
-                element: (
-                    <PrivateRouter>
-                        <PlantDetails></PlantDetails>
-                    </PrivateRouter>
-                ),
+                element: <PlantDetails></PlantDetails>,
             },
             {
                 path: "/profile",
@@ -55,6 +53,16 @@ const router = createBrowserRouter([
                 hydrateFallbackElement: <Loading></Loading>,
                 loader: () => fetch("/plants.json"),
                 element: <AllPlants></AllPlants>,
+            },
+            {
+                path: "/about",
+                hydrateFallbackElement: <Loading></Loading>,
+                element: <About></About>,
+            },
+            {
+                path: "/contact",
+                hydrateFallbackElement: <Loading></Loading>,
+                element: <Contact></Contact>,
             },
             {
                 path: "/reset-password",

@@ -11,7 +11,9 @@ const HomeLayouts = () => {
     return (
         <div>
             <Toaster position="top-center" reverseOrder={false} />
-            <Navbar></Navbar>
+            <div className=" sticky top-0 z-10 w-full">
+                <Navbar></Navbar>
+            </div>
 
             {isLoading ? <Loading></Loading> : <Outlet></Outlet>}
 

@@ -22,27 +22,27 @@ const Home = () => {
 
     return (
         <div className="overflow-hidden">
-            <div>
-                <App></App>
-            </div>
-            <div className="w-11/12 md:w-10/12 mx-auto min-h-[calc(100vh-270px)]">
-                <div>
+            <div className="w-10/12 mx-auto min-h-[calc(100vh-270px)]">
+                <div className="mb-10">
+                    <App></App>
+                </div>
+                <div className="mb-10">
                     <TopPlant data={plants}></TopPlant>
                 </div>
 
-                <div data-aos="fade-right">
+                <div data-aos="fade-right" className="mb-10">
                     <PlantCareTips></PlantCareTips>
                 </div>
 
-                <div data-aos="fade-left">
+                <div data-aos="fade-left" className="mb-10">
                     <GreenExperts></GreenExperts>
                 </div>
 
-                <div data-aos="zoom-in">
+                <div data-aos="zoom-in" className="mb-10">
                     <EcoDecorIdeas></EcoDecorIdeas>
                 </div>
 
-                <div data-aos="fade-right">
+                <div data-aos="fade-right" className="mb-10">
                     <PlantOfTheWeek plants={plants}></PlantOfTheWeek>
                 </div>
             </div>
